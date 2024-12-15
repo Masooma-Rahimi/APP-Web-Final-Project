@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FULLER's jewellries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Russo+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="jewelry.css" rel="stylesheet" type="text/css">
+    <link href="order.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+    <main class="whole-page">
+        <div class="header">
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="jewelry.html">JEWELRIES</a>
+                <a href="order.html">CONTACT</a>
+                <a href="about.html">ABOUT</a>
+            </nav>
+            <div class="logo">
+                <img src="pictures/logo.png" alt="logo">
+            </div>
+        </div>
+        <div class="container">
+            
+            <div class="page">
+                <img src="https://dam.bluenile.com/images/public/25109/Engagement_Sets.jpeg" alt="page">
+                <div id="contact">
+                    <h1>FULLER's JEWELRIES</h1>
+                    <p>contact us</p>
+                </div>
+            </div>
+            <div class="form">
+
+                <form id="shoping" action="confirmation.html" method="get">
+                    <h1>Contact Fuller's Jewelry</h1>
+                    <p>Our customer service team is here to help you with any question you might have.</p>
+                    <div class="name">
+                        <label for="name">YOUR NAME</label>
+                        <INPUT id="name" type="text" placeholder="your name" name="full name" required minlength="3">
+                    </div>
+                    <div class="email">
+    
+                        <label for="email">Email </label>
+                        <input id="email" type="email" placeholder="enter your email" name="email-adress" required>
+                    </div>
+                    <div class="number">
+    
+                        <label for="phone">phone number</label>
+                        <input id="phone" type="text" data-type="phone" placeholder="phone number" name="phone-number" required>
+                    </div>
+                    
+                    <div class="card">
+                        <label>would you like to pay by what?</label>
+                        <input id="engagment" type="radio" name="method" value="engagment" required>
+                        <label for="engagment" class="inline">engagment</label>
+
+                        <input id="custom" type="radio" name="method" value="custom" required>
+                        <label for="custom" class="inline">custom</label>
+
+                        <input id="fine-jewelry" type="radio" name="method" value="fine-jewelry" required>
+                        <label for="fine-jewelry" class="inline">fine-jewelry</label>
+                        
+                        <input id="sell-jewelry" type="radio" name="method" value="sell-jewelry" required>
+                        <label for="sell-jewelry" class="inline">sell-jewelry</label>
+                    
+                    </div>
+                    
+                    <div class="comment">
+                        <label for="comments">Briefly describe how we can help. If you have a repair request, kindly add some details</label>
+                        <textarea id="comments" name="comments"></textarea>
+                    </div>
+                    <button type="submit">submit</button>
+                    <button type="reset">check out</button>
+
+                </form>
+            </div>
+
+
+        </div>
+           
+        <footer>
+            <p>contact</p>
+            <div class="contact">
+               
+                <p>Fuller's Jewelry
+                    15164 Marsh Lane
+                    Dallas, TX 75001
+                </p>
+                <p>
+                    Phone: 972-484-7581
+                </p>
+                <p>
+                    Hours:
+                </p>
+                <p>Mon - Fri: 10AM - 6PM</p>
+                <p>Sat: 10AM - 5PM</p>
+                <p>Sun: Closed</p>
+
+            </div>
+
+           
+
+        </footer>
+    </main>
+</body>
+</html>

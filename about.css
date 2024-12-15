@@ -1,0 +1,105 @@
+iframe {
+    width: 80%;
+    height: 600px;
+    margin: auto;
+
+}
+.container {
+    width: 100%;
+    text-align: center;
+}
+.first-picture img {
+    position: relative;
+    width: 100%;
+}
+.about {
+    position: absolute;
+    top: 300px;
+    right: 900px;
+    left: 0px;
+    color: white;
+    width: 300px;
+    background-color: gray;
+    border-radius: 50px;
+    visibility: hidden;
+}
+.first-picture:hover .about {
+    visibility: visible;
+}
+.video a {
+    color: blue;
+   
+}
+video {
+    width: 80%;
+    height: 60%;
+}
+.context h2 {
+    color: blue;
+}
+.context {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: blue;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+} 
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: blue;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.row{
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+
+}
+.row img{
+    width: 48%;
+    box-sizing: border-box;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.second-row {
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-row img {
+    width: 30%;
+}
+.parent {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.child {
+    width: 700px;
+    height: 600px;
+    color: blue;
+}
+.child img {
+    width: 500px;
+    height: 600px;
+}

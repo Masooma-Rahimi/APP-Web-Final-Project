@@ -1,0 +1,23 @@
+
+.confirmation img {
+    width: 100%;
+    position: relative;
+    opacity: 1;
+}
+#confirm-text {
+    color:white;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    right: 200px;
+    font-size: 50px;
+}
+#confirm-text p {
+    font-size: 60px;
+}
+#confirm-text:hover img {
+    transition: property;
+    transition-duration: 0s;
+    transition-delay: 1s;
+    opacity: 0.8;
+}

@@ -1,0 +1,88 @@
+.rings {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 15%;
+
+}
+.rings-image{
+    /* background-color: aliceblue; */
+    width: 40%;
+    position: relative;
+    padding-bottom: 20px;
+}
+.rings-image img {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    height: 80%;
+    
+    opacity: 1;
+}
+.rings-image p {
+    width: 80%;
+    height: 90px;
+    background-color: white;
+    color: blue;
+    /* margin: 0%; */
+    padding-top: 20px;
+    margin: auto;
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.caption{
+    width: 20%;
+    height: 50px;
+    background-color: blue;
+    margin: auto;
+    
+    color: white;
+    position: absolute;
+    top: 70px;
+    left:150px;
+    visibility: hidden;
+    border-radius: 100px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+.rings-image:hover .caption{
+    visibility: visible;
+
+}
+.ring-image:hover img {
+    opacity: 0.8;
+    border-color: black;
+    border-style: double;
+    border-width: 10px;
+    
+}
+
+
+
+
+
+section {
+    background-color: blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+h1 {
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+body {
+    background-color: yellow;
+}
